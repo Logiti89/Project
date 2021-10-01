@@ -1,12 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
+# Sarah Gardener
+
+## _Age 38 • Admin for 6 Churches_
+
+### _Technical • Mainly Mobile_
+
+![Sarah IMG](IMG/adult-afro-blur-1181519.png)
+
+## Aspirations
+
+> **“Knowing we have extra protection is peace of mind.”**
+
+## **Drive**
+
+* Strives to make churches the best facilities they can be
+* Being reliable and there for people matters
+* Understanding where to make improvements
+* Protection is important for the unknowns
+
+## **Goals & Needs**
+
+* Managing multiple locations is key
+* Allowing me to understand how I can improve
+* Lower energy bills • Alert me before something becomes a big problem
+* Allowing me to check in even if everything is fine
+
+## **Hesitations & Pain Points**
+
+* The current system is hard to understand
+* Too much email communication
+* Really don’t like the time spent finding what I am looking for
+* Hard to hook up new or additional devices
+* Hard to train others who are not technical how to use app and devices
+* Guessing where to put sensors is hard
+
+![LOGO](IMG/LOGO-3.png)
