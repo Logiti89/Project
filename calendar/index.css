@@ -151,6 +151,8 @@ margin: 0;
 }
 
 .number:hover {
+  height: 82px;
+  width: 82px;
   border-color: #3C82F9;
   background-color: #fff;
   
@@ -165,9 +167,11 @@ margin: 0;
 }
 
 .pic {
+  height: 82px;
+  width: 82px;
   background-color: #3C82F9;
   color: #fff;
-  border-radius: 3.448275862rem;
+  border-radius: 1.4482rem;
 }
 
 .button_block_header {
