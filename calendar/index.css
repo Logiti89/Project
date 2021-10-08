@@ -1,0 +1,238 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fChc4AMP6lbBP.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  :root {
+    /* html, body */
+    font-family: 'Roboto', sans-serif;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 29px;
+    line-height: 1.1734;
+
+    color: #000000;
+}
+
+body {
+margin: 0;
+display: flex;
+justify-content: flex-end;
+}
+
+.Main_Block{
+    position: absolute;
+    width: 27.5862rem;
+    height: 61.896551rem;
+    
+    background: rgba(42, 46, 65, 0.7);
+
+}
+.calendar-container {
+  
+display: block;
+    
+}
+
+.calendar-container__header {
+  margin: 2.896551rem 3.448275862rem 3rem 3.448275862rem;
+  display: flex;
+  align-items: center;
+  gap: 4.1724rem;
+  
+}
+.calendar-container__title {
+    font-size: 1.48rem;
+    color: #FFFFFF;
+    margin: 0;
+    
+}
+
+a {
+  display: flex;
+  align-items: center;
+}
+
+.divider {
+
+  position: absolute;
+  width: 20.6551rem;
+  height: 0.06896551rem;
+  margin: 0rem 3.448275862rem 0px 3.448275862rem;
+  
+  background: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.17;
+}
+
+
+
+.calendar-table__col{
+  width: 2.96551rem;
+  text-align: center;
+}
+
+.calendar-table__row{
+  height: 4.137931rem;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+
+  justify-content: center;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+
+
+
+.week1 {
+  height: 4.48275862rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.week2 {
+  height: 4.48275862rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+  .week3 {
+    height: 4.48275862rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.week4 {
+      height: 4.48275862rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      }
+
+
+ .week5 {
+    height: 4.48275862rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+
+.number {
+  width: 2.96551rem;
+  height: 2.75862rem;
+  text-align: center;
+  color: #FFFFFF;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: 0.06896551rem solid transparent;
+margin: 0;
+}
+
+.number:hover {
+  border-color: #3C82F9;
+  background-color: #fff;
+  
+  color: #3C82F9;
+  border-radius: 3.448275862rem;
+}
+
+.next {
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.pic {
+  background-color: #3C82F9;
+  color: #fff;
+  border-radius: 3.448275862rem;
+}
+
+.button_block_header {
+  color: white;
+  font-size: 0.896551rem;
+  padding: 3.620rem 0rem 0rem 3.4137931rem;
+}
+
+
+.button_block_first_row{
+display: flex;
+gap: 0.96551rem;
+padding: 1.4482rem 0rem 0rem 3.4482rem;
+}
+
+.button_finance{
+color: white;
+width: 9.82rem;
+height: 2.75862rem;
+background-color: #8576ED;
+text-align: center;
+border-radius: 0.413rem;
+line-height: 2.75862rem;
+}
+.button_finance:hover {
+border-color: #3C82F9;
+background-color: #51488e;
+color: white;
+}
+
+
+.button_management{
+color: white;
+width: 9.82rem;
+height: 2.75862rem;
+background-color: #F39946;
+text-align: center;
+border-radius: 0.413rem;
+line-height: 2.75862rem;
+}
+
+.button_management:hover {
+  border-color: #3C82F9;
+  background-color: #cc7c32;
+  color: white;
+  }
+
+.button_design{
+color: white;
+width: 9.82rem;
+height: 2.75862rem;
+background-color: #FF467E;
+text-align: center;
+border-radius: 0.413rem;
+line-height: 2.75862rem;
+}
+.button_design:hover {
+  border-color: #3C82F9;
+  background-color: #d13a68;
+  color: white;
+  }
+
+.button_block_second_row {
+padding: 1.034482rem 0rem 0rem 3.413rem;
+
+}
