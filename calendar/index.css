@@ -81,8 +81,6 @@ a {
   opacity: 0.17;
 }
 
-
-
 .calendar-table__col{
   width: 2.96551rem;
   text-align: center;
@@ -193,6 +191,7 @@ background-color: #8576ED;
 text-align: center;
 border-radius: 0.413rem;
 line-height: 2.75862rem;
+font-size: 0.75862rem;
 }
 .button_finance:hover {
 border-color: #3C82F9;
@@ -209,6 +208,7 @@ background-color: #F39946;
 text-align: center;
 border-radius: 0.413rem;
 line-height: 2.75862rem;
+font-size: 0.75862rem;
 }
 
 .button_management:hover {
@@ -225,6 +225,7 @@ background-color: #FF467E;
 text-align: center;
 border-radius: 0.413rem;
 line-height: 2.75862rem;
+font-size: 0.75862rem;
 }
 .button_design:hover {
   border-color: #3C82F9;
