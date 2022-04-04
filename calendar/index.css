@@ -20,12 +20,10 @@
   :root {
     /* html, body */
     font-family: 'Roboto', sans-serif;
-
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 29px;
-    line-height: 1.1734;
+    line-height: 1.173;
 
     color: #000000;
 }
@@ -38,8 +36,8 @@ justify-content: flex-end;
 
 .Main_Block{
     position: absolute;
-    width: 27.5862rem;
-    height: 61.896551rem;
+    width: 27.586rem;
+    height: 61.896rem;
     
     background: rgba(42, 46, 65, 0.7);
 
@@ -51,10 +49,10 @@ display: block;
 }
 
 .calendar-container__header {
-  margin: 2.896551rem 3.448275862rem 3rem 3.448275862rem;
+  margin: 2.896rem 3.448rem 3rem 3.448rem;
   display: flex;
   align-items: center;
-  gap: 4.1724rem;
+  gap: 4.172rem;
   
 }
 .calendar-container__title {
@@ -72,9 +70,9 @@ a {
 .divider {
 
   position: absolute;
-  width: 20.6551rem;
-  height: 0.06896551rem;
-  margin: 0rem 3.448275862rem 0px 3.448275862rem;
+  width: 20.655rem;
+  height: 0.068rem;
+  margin: 0rem 3.448rem 0px 3.448rem;
   
   background: #000000;
   mix-blend-mode: normal;
@@ -82,12 +80,12 @@ a {
 }
 
 .calendar-table__col{
-  width: 2.96551rem;
+  width: 2.965rem;
   text-align: center;
 }
 
 .calendar-table__row{
-  height: 4.137931rem;
+  height: 4.137rem;
   display: flex;
   align-items: center;
   color: #FFFFFF;
@@ -100,7 +98,7 @@ a {
 
 
 .week1 {
-  height: 4.48275862rem;
+  height: 4.482rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -108,21 +106,21 @@ a {
 }
 
 .week2 {
-  height: 4.48275862rem;
+  height: 4.482rem;
   display: flex;
   align-items: center;
   justify-content: center;
   }
 
   .week3 {
-    height: 4.48275862rem;
+    height: 4.482rem;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
 .week4 {
-      height: 4.48275862rem;
+      height: 4.482rem;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -130,7 +128,7 @@ a {
 
 
  .week5 {
-    height: 4.48275862rem;
+    height: 4.482rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -138,26 +136,24 @@ a {
 
 
 .number {
-  width: 2.96551rem;
-  height: 2.75862rem;
+  width: 2.965rem;
+  height: 2.758rem;
   text-align: center;
   color: #FFFFFF;
   justify-content: center;
   display: flex;
   align-items: center;
   cursor: pointer;
-  border: 0.06896551rem solid transparent;
-margin: 0;
+  border: 0.068rem solid transparent;
+  margin: 0;
 }
 
 .number:hover {
   height: 82px;
-  width: 82px;
   border-color: #3C82F9;
   background-color: #fff;
-  
   color: #3C82F9;
-  border-radius: 3.448275862rem;
+  border-radius: 3.448rem;
 }
 
 .next {
@@ -171,54 +167,56 @@ margin: 0;
   width: 82px;
   background-color: #3C82F9;
   color: #fff;
-  border-radius: 1.4482rem;
+  border-radius: 1.448rem;
 }
 
 .button_block_header {
   color: white;
-  font-size: 0.896551rem;
-  padding: 3.620rem 0rem 0rem 3.4137931rem;
+  font-size: 0.896rem;
+  padding: 3.620rem 0rem 0rem 3.413rem;
 }
 
 
 .button_block_first_row{
 display: flex;
-gap: 0.96551rem;
-padding: 1.4482rem 0rem 0rem 3.4482rem;
+gap: 0.965rem;
+padding: 1.448rem 0rem 0rem 3.448rem;
 }
 
 .button_finance{
 color: white;
 width: 9.82rem;
-height: 2.75862rem;
+height: 2.758rem;
 background-color: #8576ED;
 text-align: center;
 border-radius: 0.413rem;
-line-height: 2.75862rem;
-font-size: 0.75862rem;
+line-height: 2.758rem;
+font-size: 0.758rem;
 }
 .button_finance:hover {
 border-color: #3C82F9;
 background-color: #51488e;
 color: white;
+transform: scale(1.05);
 }
 
 
 .button_management{
 color: white;
 width: 9.82rem;
-height: 2.75862rem;
+height: 2.758rem;
 background-color: #F39946;
 text-align: center;
 border-radius: 0.413rem;
-line-height: 2.75862rem;
-font-size: 0.75862rem;
+line-height: 2.758rem;
+font-size: 0.758rem;
 }
 
 .button_management:hover {
   border-color: #3C82F9;
   background-color: #cc7c32;
   color: white;
+  transform: scale(1.05);
   }
 
 .button_design{
@@ -228,16 +226,17 @@ height: 2.75862rem;
 background-color: #FF467E;
 text-align: center;
 border-radius: 0.413rem;
-line-height: 2.75862rem;
-font-size: 0.75862rem;
+line-height: 2.758rem;
+font-size: 0.758rem;
 }
 .button_design:hover {
   border-color: #3C82F9;
   background-color: #d13a68;
   color: white;
+  transform: scale(1.05);
   }
 
 .button_block_second_row {
-padding: 1.034482rem 0rem 0rem 3.413rem;
+padding: 1.034rem 0rem 0rem 3.413rem;
 
 }
